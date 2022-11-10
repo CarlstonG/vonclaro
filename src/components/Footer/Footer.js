@@ -22,11 +22,11 @@ function Footer() {
 				<FooterGrid justify="space-between">
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
-							<SocialIcon src="./assets/logo.png" />
-							Delta
+							<SocialIcon src="./assets/Vonclaro_logo.png" />
+							
 						</FooterLogo>
 						<FooterAddress>
-							69 Street, Delta Building, US Road, Los Angeles 123
+						VONCLARO INC, 180 NORTHFIELD DRIVE WEST, WATERLOO, ON, N2L 5A6, CANADA
 						</FooterAddress>
 
 						<Row align="center" margin="auto  0 0 0" gap="1rem">
@@ -53,7 +53,7 @@ function Footer() {
 						</FooterLinkItems>
 					))}
 				</FooterGrid>
-				<FooterRights>Delta © 2021</FooterRights>
+				<FooterRights>Vonclaro © 2022</FooterRights>
 			</FooterWrapper>
 		</Section>
 	);

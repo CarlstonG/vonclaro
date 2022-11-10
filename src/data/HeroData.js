@@ -2,9 +2,9 @@ export const heroOne = {
 	reverse: true,
 	inverse: true,
 	topLine: {
-		text: 'Founded in 2012',
+		text: 'We find solutions.',
 	},
-	headline: "We've been in business for 9 years",
+	headline: "GROWTH MARKETING AGENCY",
 	description: 'We have designed and implemented the best cloud security solutions',
 	buttonLabel: 'Find More',
 	imgStart: 'start',
@@ -34,9 +34,9 @@ export const heroThree = {
 	topLine: {
 		text: 'Highly reputed brand',
 	},
-	headline: 'Why us? ',
+	headline: 'Performance Driven Marketing By VonClaro? ',
 	description:
-		'Our 9 year experience have allowed us to use the most innovative technologies and methodologies',
+		'VonClaro was founded in 2016 in Waterloo, and boasts a team with over 35 years of combined experience in the advanced digital marketing space. Having worked with virtually every industry, the lessons have been learned, and our team consistently delivers revenue growth for our clients. ',
 	buttonLabel: 'View Project',
 
 	linkTo: '/download',

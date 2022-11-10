@@ -8,15 +8,16 @@ const Hero = () => {
 		<HeroSection>
 			<HeroVideo src="./assets/hero.mp4" autoPlay muted />
 			<Container>
-				<MainHeading>Your data is secure with us</MainHeading>
-				<HeroText>
+				<MainHeading>B2B & B2C Growth</MainHeading>
+				<MainHeading>Experts.</MainHeading>
+				{/* <HeroText>
 					We provide the best security systems for clients all over the world
-				</HeroText>
+				</HeroText> */}
 				<ButtonWrapper>
 					<Link to="signup">
-						<Button>Get Started</Button>
+						<Button>LET US HELP</Button>
 					</Link>
-					<HeroButton>Find More</HeroButton>
+					<HeroButton>BOOK A CALL</HeroButton>
 				</ButtonWrapper>
 			</Container>
 		</HeroSection>

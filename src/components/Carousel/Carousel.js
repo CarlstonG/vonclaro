@@ -15,10 +15,10 @@ const Carousel = () => {
 	const [sliderRef, setSliderRef] = useState(null);
 
 	return (
-		<Section margin="auto" maxWidth="1280px" padding="50px 70px" inverse>
+		<Section margin="auto" maxWidth="1280px" padding="50px 70px" inverse id="blog">
 			<Row justify="space-between" margin="1rem" wrap="wrap">
 				<Heading width="auto" inverse>
-					Find more about us
+					Vonclaro Blog
 				</Heading>
 				<ButtonContainer>
 					<IconContext.Provider value={{ size: '3rem', color: '#1d609c' }}>

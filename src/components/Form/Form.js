@@ -46,18 +46,18 @@ const Form = () => {
 	const formData = [
 		{ label: 'Name', value: name, onChange: (e) => setName(e.target.value), type: 'text' },
 		{ label: 'Email', value: email, onChange: (e) => setEmail(e.target.value), type: 'email' },
-		{
-			label: 'Password',
-			value: password,
-			onChange: (e) => setPassword(e.target.value),
-			type: 'password',
-		},
-		{
-			label: 'Confirm Password',
-			value: confirmPass,
-			onChange: (e) => setConfirmPass(e.target.value),
-			type: 'password',
-		},
+		// {
+		// 	label: 'Password',
+		// 	value: password,
+		// 	onChange: (e) => setPassword(e.target.value),
+		// 	type: 'password',
+		// },
+		// {
+		// 	label: 'Confirm Password',
+		// 	value: confirmPass,
+		// 	onChange: (e) => setConfirmPass(e.target.value),
+		// 	type: 'password',
+		// },
 	];
 	return (
 		<FormSection>
